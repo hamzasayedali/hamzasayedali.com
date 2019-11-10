@@ -1,0 +1,362 @@
+
+
+/* Rectangle 1 */
+.side-bar{
+    
+    height: 100%;
+    padding:20px;
+    margin-right: 0;
+    top: 0;
+
+    background: rgb(92, 108, 199);
+}
+
+a{
+    text-decoration: none;
+}
+
+.profile-image{
+    /* Ellipse 1 */
+    
+    width: 194px;
+    
+    margin:auto;
+    display: block;
+    
+
+    border-radius: 50px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0,0.25);
+}
+
+.profile-image-holder{
+    padding-top: 75px;
+}
+
+
+.name-title{
+    /* HAMZA SAYED-ALI */
+
+    
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-bar{
+    
+    margin: auto;
+    margin-top: 0px;
+    display: block;
+}
+
+
+
+.nav-bar-item{
+    
+    left: 0%;
+    right: 0%;
+    top: 2.56%;
+    bottom: -2.56%;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 49px;
+    text-align: center;
+    
+    color: rgba(256, 256, 256, 0.6);
+}
+
+.nav-bar-item a{
+    color: rgba(256, 256, 256, 0.6);
+    opacity: 0.8;
+}
+.nav-bar-item a:hover{
+    opacity: 1;
+    text-decoration: none;
+}
+
+.body-content{
+    mix-blend-mode: normal;
+    background: url(imgs/circuitboard.png);
+    background-size: 100%;
+    background-position-x: 300px;
+    margin-left: 0;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    padding-bottom: 40px;
+}
+
+.mantra{
+    /* Computer Engineering Student Web Developer Video Creator */
+
+    padding-left: 59px;
+    padding-top: 134px;
+
+    margin-bottom: 120px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #000000;
+}
+.projects-title{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #000000;
+}
+
+.page-title{
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    
+    font-size: 44px;
+    line-height: 56px;
+
+    color: #000000;
+}
+
+.project-tile{
+    width: 280px;
+    
+
+    background: #C4C4C4;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0,0.25);
+}
+
+.project-link :hover{
+    background: rgb(150, 149, 149);
+    
+}
+
+.project-link{
+
+    position:absolute; 
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+
+    z-index: 1;
+
+    /* fixes overlap error in IE7/8, 
+        make sure you have an empty gif */
+    /*background-image: url('empty.gif');*/
+} 
+
+
+.project-tile-holder{
+    margin-left:0;
+    padding: 10px;
+}
+
+h2{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+    
+
+    margin-bottom: 3px;
+
+    color: #000000;
+
+}
+
+.project-tile-title{
+    position: relative;
+    align-content: center;
+    top: 2.63%;
+    text-align: center;
+}
+
+.project-image-holder{
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: auto;
+    width: 90%;
+    min-height: 100px;
+    /*height: 300px;*/
+}
+.project-image{
+    width:100%;
+    border-radius: 5px;
+}
+
+.project-tile p{
+    align-content: center; 
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 5px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.project-tile a{
+    color:black;
+}
+.project-tile a:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.about{
+    padding:20px;
+}
+
+.strong{
+    font-weight: bold;
+}
+
+.project-headder-container{
+    width: 50%;
+    margin: 40px;
+    border-color: #000000;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.paragraph-container{
+    margin-right: 80px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.paragraph-container a{
+    color: rgb(99, 99, 228);
+}
+
+.footer{
+    background-color: #222222;
+    height: 200px;
+    color: rgb(226, 226, 226);
+    padding: 20px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+}
+
+
+
+@media only screen and (max-width: 1020px) {
+    .mantra{
+        margin-bottom: 40px;
+    }
+  }
+
+  
+  .center {
+    display: table;
+    width: 100%;
+    margin-top:20px;
+  }
+  
+  #social-test {
+    display: table-cell;
+    text-align: center;
+    font-size: 30px;
+}
+.social {
+    padding-left: 0px;
+}
+li {
+    display: inline-block;
+}
+li a {
+    color: rgba(256, 256, 256, 0.6);
+    border-radius: 6px;
+    list-style-type: none;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 1%;
+    border: 1px solid rgba(256, 256, 256, 0.6);
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: ease .3s;
+}
+li a:hover {
+    color: rgba(256, 256, 256, 1);
+    border: 1px solid rgba(256, 256, 256, 1);
+}
+    
+  
+  .social:hover > li {
+    opacity: 0.5;
+  }
+  
+  .social:hover > li:hover {
+    opacity: 1;
+  }
+
+
+
+  .back-button{
+      padding:10px;
+      color: rgba(256, 256, 256, 1);
+      border-style: solid;
+      border-radius: 5px;
+      background-color: rgb(92, 108, 199);
+      border-color: rgba(256, 256, 256, 1);
+      margin-right:20px;
+      
+  }
+
+  .back-button:hover{
+      text-decoration: none;
+      color: rgba(256, 256, 256, 1);
+      background-color: rgb(118, 129, 189);
+  }
+  .project-page-header{
+      margin-left: 20px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+  }
+
+  .project-details-holder{
+      padding-top:20px;
+  }
+
+  .project-content{
+      margin: 40px;
+      width: 60%;
+      border-color: #1d1d1d;
+      border-style: solid;
+      border-radius:5px;
+  }

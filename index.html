@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hamza Sayed-Ali</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <link href="style1.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body>
+        <div class ="row">
+            <div class="col-lg-3">
+
+                <div class="side-bar">
+                    <div class="profile-image-holder">
+                        <img src="imgs/portrait.jpg" class="profile-image">
+                    </div>
+
+                    <div class="name-title">
+                        <div>Hamza</div>
+                        <div>Sayed-Ali</div>
+                    </div>
+                    <!--Social Media Icons-->
+                    <div class="center">
+                        <div id="social-test">
+                            <ul class="social">
+                                <li><a href="https://www.youtube.com/c/HamzaSayedAli" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></a></i></li>
+                                <li><a href="https://www.linkedin.com/in/hamzasayedali" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="https://github.com/hamzasayedali" target="_blank"><i class="fa fa-github" aria-hidden="true"></a></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--Navigation Links, only resume for now but I may add more-->
+                    <div class="nav-bar">
+                        <div class="nav-bar-item">
+                            <div><a href="HamzaSayedAliResume.pdf" target="_blank">resume</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end of sidebar column-->
+            <div class = "col-lg-9  container-fluid">
+                <div class="body-content"><!--Contains all the content in body of page-->
+                    
+                    <div class = "mantra">
+                        <div>Computer Engineering Student</div>
+                        <div>Web Designer</div>
+                        <div>Video Creator</div>
+                    </div>
+
+                    <div class = "about">
+                        <h2>About Me</h2>
+                        <div class = "paragraph-container">
+                            <p>I'm Hamza, a Computer Engineering student at the University of Waterloo in the Co-op program. My interests lie in <span class="strong">UX/UI design</span> and <span class = "strong">sustainable technology.</span>
+                            </p>
+                            <p>Currently, I'm working through my 1A courses including ECE 150, learning <b>C++</b> programming.Ouside of school, I am on the <a href="https://www.uwmidsun.com" target="_blank"><b>UW Midnight Sun Solar Car</b></a> design team creating firmware and the GUI for controlling the car systems. 
+                                Also, I am the VP of Marketing for the Waterloo branch of <a href="https://www.projecttechconferences.com" target="_blank"><b>Project Tech Conferences</b></a>, a conference promoting STEM for local grade school and high school students. It's been a BUSY semester but I am excited to keep learning and creating new projects!</p>
+                        </div>
+                    </div>
+
+
+                    <div class = "project-tile-holder container-fluid">
+                        
+                        <div class = "projects-title">Projects</div>
+                        
+                        <div class = "row justify-content-around">
+                            <div class = "col-lg-4 justify-content-center">
+
+                                <div class = "project-tile">
+                                    <a href="proj1_runfar.html">
+                                        <h2 class = "project-tile-title">Web Design</h2>
+                                        
+                                        <div class = "project-image-holder">
+                                            <img src = "imgs/projs/web_design.png" class = "project-image">
+                                        </div>
+                                    
+                                        <p>I started a web-design company, creating websites for local businesses.</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class = "col-lg-4">
+                                <div class = "project-tile">
+                                    <a href="proj2_midsun.html">
+                                        <h2 class = "project-tile-title">UW Midnight Sun</h2>
+                                        
+                                        <div class = "project-image-holder">
+                                            <img src = "imgs/projs/uwmidsun.png" class = "project-image">
+                                        </div>
+                                    
+                                        <p>As a member of the firmware team, I use C to create funtionality for the solar car.</p>
+                                    </a>
+                                        
+                                </div>
+                                
+                            </div>
+
+                            <div class = "col-lg-4">
+                                <div class = "project-tile">
+                                    <a href="proj3_paintnyc.html">
+                                        <h2 class = "project-tile-title">Paint NYC</h2>
+                                        
+                                        <div class = "project-image-holder">
+                                            <img src = "imgs/projs/pypaint.png" class = "project-image">
+                                        </div>
+                                    
+                                        <p>A <span class="strong">POWERFUL</span> paint program made using the PyGame library.</p>
+                                    </a>
+                                </div>
+    
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+                
+                
+        </div>
+        <!--Footer for all pages on website, I want to use React.js to automate this
+        incase it needs editing on all pages but for now it just is a copy-paste vibe-->
+        <div class = "footer">
+            <div class = "row">
+                <div class="col-12">
+                    <h1>Hamza Sayed-Ali</h1>
+                    <p>Email: hamzasayedali@gmail.com</p>
+                    <p>Phone: 519-984-1930</p>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
